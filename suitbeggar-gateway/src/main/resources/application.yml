@@ -1,0 +1,53 @@
+server:
+  port: 8003
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: auth-gateway-server
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://localhost:8001/
+          order: 0
+          predicates:
+            - Path=/test
+          filters:
+            - name: RequestRateLimiter #filter名称必须是RequestRateLimiter
+              args:
+                redis-rate-limiter.replenishRate: 10 #允许用户每秒处理多少个请求
+                redis-rate-limiter.burstCapacity: 20 #令牌桶的容量，允许在一秒钟内完成的最大请求数
+                key-resolver: "#{@ipKeyResolver}" #使用SpEL按名称引用bean
+                #rate-limiter: "#{@systemRedisRateLimiter}"
+            - name: Retry    #重试机制
+              args:
+                retries: 3 #重试次数，默认值是3次
+                series:   #状态码配置（分段），符合的某段状态码才会进行重试逻辑，默认值是SERVER_ERROR，值是5
+                 - SERVER_ERROR
+                statuses: #状态码配置，和series不同的是这边是具体状态码的配置
+                 - OK
+                methods: #指定哪些方法的请求需要进行重试逻辑，默认值是GET方法
+                 - GET
+                 - POST
+                exceptions: #指定哪些异常需要进行重试逻辑，默认值是java.io.IOException
+                 - java.io.IOException
+
+eureka:
+  client:
+    #register-with-eureka: false
+    #fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+
+#自定义限流
+#与配置类RateLimiterConf保持一致
+#ratelimiter-conf:
+  #配置限流参数与RateLimiterConf类映射
+  #rateLimitMap:
+    #格式为：routeid(gateway配置routes时指定的).系统名称.replenishRate(流速)/burstCapacity令牌桶大小
+    #service.A.replenishRate: 10
+    #service.A.burstCapacity: 100
+    #service.B.replenishRate: 20
+    #service.B.burstCapacity: 1000

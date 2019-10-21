@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-gateway/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/suitbeggar-gateway/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-api-client/suitbeggar-api-client.iml" filepath="$PROJECT_DIR$/suitbeggar-api-client/suitbeggar-api-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-auth-service/suitbeggar-auth-service.iml" filepath="$PROJECT_DIR$/suitbeggar-auth-service/suitbeggar-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-common/suitbeggar-common.iml" filepath="$PROJECT_DIR$/suitbeggar-common/suitbeggar-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-config/suitbeggar-config.iml" filepath="$PROJECT_DIR$/suitbeggar-config/suitbeggar-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-eureka/suitbeggar-eureka.iml" filepath="$PROJECT_DIR$/suitbeggar-eureka/suitbeggar-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-eureka-cluster/suitbeggar-eureka-cluster.iml" filepath="$PROJECT_DIR$/suitbeggar-eureka-cluster/suitbeggar-eureka-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-gateway/suitbeggar-gateway.iml" filepath="$PROJECT_DIR$/suitbeggar-gateway/suitbeggar-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-gateway/src/main/suitbeggar-master.iml" filepath="$PROJECT_DIR$/suitbeggar-gateway/src/main/suitbeggar-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suitbeggar-gateway/src/test/test.iml" filepath="$PROJECT_DIR$/suitbeggar-gateway/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

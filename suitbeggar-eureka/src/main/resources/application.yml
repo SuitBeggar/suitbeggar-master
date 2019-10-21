@@ -1,0 +1,26 @@
+server:
+  port: 8001
+
+spring:
+  profiles:
+    active: test
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: localhost
+    #status-page-url: http://${spring.cloud.client.ipAddress}:${server.port}/swagger-ui.html #API 文档
+    #lease-renewal-interval-in-seconds: 1  #每间隔1s，向服务端发送一次心跳，证明自己依然”存活“
+    #lease-expiration-duration-in-seconds: 2 # 告诉服务端，如果我2s之内没有给你发心跳，就代表我“死”了，将我踢出掉。
+  client:
+    register-with-eureka: false #  默认为 true。设为 false，仅作为服务中心，不作为服务客户端。
+    #fetch-registry: false # 默认为true。设为false，不从服务中心检索注册的服务。
+    serviceUrl:
+      #default-zone: http://${eureka.instance.hostname}:${server.port}/eureka
+      defaultZone: http://localhost:8002/eureka
+  #server:
+    #eviction-interval-timer-in-ms: 5000 #清理间隔（单位毫秒，默认是60*1000）
+    #enable-self-preservation: false # 默认为true，设为false，关闭自我保护
+    # Eureka Server 在运行期间会去统计心跳失败比例在 15 分钟之内是否低于 85%
+    #renewal-percent-threshold: 0.49 # 默认是0.85，本地单机测试设为0.49

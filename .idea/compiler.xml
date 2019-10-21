@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="suitbeggar-api-client" />
+        <module name="suitbeggar-auth-service" />
+        <module name="suitbeggar-common" />
+        <module name="suitbeggar-config" />
+        <module name="suitbeggar-eureka" />
+        <module name="suitbeggar-eureka-cluster" />
+        <module name="suitbeggar-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="suitbeggar-api-client" target="1.8" />
+      <module name="suitbeggar-auth-service" target="1.8" />
+      <module name="suitbeggar-common" target="1.8" />
+      <module name="suitbeggar-config" target="1.8" />
+      <module name="suitbeggar-eureka" target="1.8" />
+      <module name="suitbeggar-eureka-cluster" target="1.8" />
+      <module name="suitbeggar-gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

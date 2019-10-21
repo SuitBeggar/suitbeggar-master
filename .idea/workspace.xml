@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0111d888-d94a-4ff8-bdef-31af44bc916c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-config/target/" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-api-client/target/" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-common/target/" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-auth-service/target/" />
+    <ignored path="$PROJECT_DIR$/suitbeggar-eureka-cluster/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>RateLimiterConf</find>
+      <find>co</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/limiter/SystemRedisRateLimiter.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/config/FilterConfiguration.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/filter/AuthFilter.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/exception/GlobalException.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/RSAUtils.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/filter/WrapperResponseFilter.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/route/service/DynamicRouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/route/InMemoryRouteDefinitionRepository.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/route/RedisRouteDefinitionRepository.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka/src/main/java/com/listener/EurekaStateChangeListener.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/com/suitbeggar/config/RateLimiterConf.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/java/suitbeggargateway/SuitbeggarGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/src/main/java/com/suitbeggarauthservice/SuitbeggarAuthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/src/main/java/com/auth/po/User.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/src/main/java/com/auth/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/src/main/java/com/auth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/src/main/java/com/auth/query/AuthQuery.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-auth-service/src/main/java/suitbeggarauthservice/SuitbeggarAuthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka-cluster/src/main/java/com/listener/EurekaStateChangeListener.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka-cluster/src/main/java/suitbeggareureka/SuitbeggarEurekaClusterApplication.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka/src/main/java/suitbeggareureka/SuitbeggarEurekaApplication.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/suitbeggar-eureka-cluster/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/SnowFlakeUtils.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/Producer.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaUtil.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaProducerConfig.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaDataListener.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/suitbeggarcommon/SuitbeggarCommonApplication.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaConsumerConfig.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/SerializeUtil.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/redis/RedisPoolUtil.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/redis/LockUtil.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/redis/RedisLock.java" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-test/2.1.6.RELEASE/spring-boot-test-2.1.6.RELEASE-sources.jar!/org/springframework/boot/test/context/SpringBootContextLoader.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaProducerUtil.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/pom.xml" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/ProtostuffUtils.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/JWTUtils.java" />
+        <option value="$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaConsumerUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\repository" />
+        <option name="mavenHome" value="D:/software/maven/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1363" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UNUSED_IMPORT</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="suitbeggar-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="suitbeggar-eureka" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="suitbeggar-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suitbeggar-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suitbeggar-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suitbeggar-master" type="462c0819:PsiDirectoryNode" />
+              <item name="suitbeggar-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3678161" />
+    <property name="nodejs_interpreter_path" value="D:/software/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hadoop_master" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springcloud\suitbeggar-master\suitbeggar-eureka\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.KafkaConsumerUtil">
+    <configuration name="KafkaConsumerUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.common.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.common.kafka.KafkaConsumerUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="suitbeggar-common" />
+      <envs />
+    </configuration>
+    <configuration name="KafkaProducerUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.common.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.common.kafka.KafkaProducerUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="suitbeggar-common" />
+      <envs />
+    </configuration>
+    <configuration name="LockUtil" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.common.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.common.redis.LockUtil" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="suitbeggar-common" />
+      <envs />
+    </configuration>
+    <configuration name="SnowFlakeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.common.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.common.util.SnowFlakeUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="suitbeggar-common" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarApiClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggarapiclient.SuitbeggarApiClientApplication" />
+      <module name="suitbeggar-api-client" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggarauthservice.SuitbeggarAuthServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="suitbeggar-auth-service" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggarcommon.SuitbeggarCommonApplication" />
+      <module name="suitbeggar-common" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggarconfig.SuitbeggarConfigApplication" />
+      <module name="suitbeggar-config" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="suitbeggareureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggareureka.SuitbeggarEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="suitbeggar-eureka" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarEurekaClusterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggareureka.SuitbeggarEurekaClusterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="suitbeggar-eureka-cluster" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggargateway.SuitbeggarGatewayApplication" />
+      <module name="suitbeggar-gateway" />
+      <envs />
+    </configuration>
+    <configuration name="SuitbeggarGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="suitbeggargateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="suitbeggargateway.SuitbeggarGatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="11">
+      <item index="0" class="java.lang.String" itemvalue="Application.LockUtil" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarCommonApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarAuthServiceApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarEurekaClusterApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarGatewayApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarConfigApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarApiClientApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Application.SnowFlakeUtils" />
+      <item index="8" class="java.lang.String" itemvalue="Application.KafkaProducerUtil" />
+      <item index="9" class="java.lang.String" itemvalue="Application.KafkaConsumerUtil" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarEurekaApplication" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.KafkaConsumerUtil" />
+        <item index="1" class="java.lang.String" itemvalue="Application.KafkaProducerUtil" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SnowFlakeUtils" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SuitbeggarEurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0111d888-d94a-4ff8-bdef-31af44bc916c" name="Default" comment="" />
+      <created>1565060637135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565060637135</updated>
+      <workItem from="1565060641549" duration="31000" />
+      <workItem from="1565060690259" duration="3817000" />
+      <workItem from="1565070992599" duration="10494000" />
+      <workItem from="1565141316943" duration="12259000" />
+      <workItem from="1565173087478" duration="62000" />
+      <workItem from="1565226922515" duration="14220000" />
+      <workItem from="1565313511933" duration="14052000" />
+      <workItem from="1565572891866" duration="17683000" />
+      <workItem from="1565659300508" duration="13625000" />
+      <workItem from="1565745519546" duration="8137000" />
+      <workItem from="1565831682702" duration="9660000" />
+      <workItem from="1565918706196" duration="17649000" />
+      <workItem from="1566177371680" duration="14742000" />
+      <workItem from="1566263815798" duration="5374000" />
+      <workItem from="1566350057693" duration="10571000" />
+      <workItem from="1566437421869" duration="2227000" />
+      <workItem from="1566522846339" duration="8642000" />
+      <workItem from="1566782193595" duration="2379000" />
+      <workItem from="1566878390404" duration="36000" />
+      <workItem from="1566893905971" duration="7000" />
+      <workItem from="1566895313977" duration="14000" />
+      <workItem from="1567071347873" duration="592000" />
+      <workItem from="1567404680144" duration="2435000" />
+      <workItem from="1567476574363" duration="589000" />
+      <workItem from="1567492125372" duration="10000" />
+      <workItem from="1567831759055" duration="578000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SuitbeggarGatewayApplicationTests - 2019.08.12 at 11h 25m 28s.xml">
+      <configuration name="SuitbeggarGatewayApplicationTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="169885000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4506803" sideWeight="0.1172466" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42687073" sideWeight="0.88275343" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19897959" sideWeight="0.49394855" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2965204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54931974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50340134" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45238096" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/base/ResponseCode.java</url>
+          <line>30</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.2.RELEASE/spring-cloud-netflix-eureka-server-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerAutoConfiguration.class</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.2.RELEASE/spring-cloud-netflix-eureka-server-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerBootstrap.class</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.2.RELEASE/spring-cloud-netflix-eureka-server-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerBootstrap.class</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.1.2.RELEASE/spring-cloud-netflix-eureka-server-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerBootstrap.class</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/kafka/KafkaProducerUtil.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/suitbeggar-common/src/main/java/suitbeggarcommon/SuitbeggarCommonApplication.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3678161" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3678161" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>suitbeggar-eureka</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3678161" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>maven-wrapper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3678161" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
