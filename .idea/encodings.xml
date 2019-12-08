@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/suitbeggar-api-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-auth-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/exception/GlobalException.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/exception/GlobalExceptionHandler.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/JWTUtils.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-common/src/main/java/com/common/util/RSAUtils.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-eureka-cluster" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/suitbeggar-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-api-client" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-api-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-eureka-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/suitbeggar-gateway/src/main/java" charset="UTF-8" />
   </component>
 </project>
